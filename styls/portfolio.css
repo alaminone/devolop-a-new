@@ -77,13 +77,12 @@ margin-bottom: 0px;
     margin-bottom: 10px;
 }
 .section-title{
-    color: var(--dark-01, #181818);
+    color:#181818;
 text-align: center;
 font-size: 35px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 }
+
 .section-description{
     color: #757575;
 text-align: center;
@@ -133,4 +132,38 @@ gap: 24px;
     color: #474747;
 font-size: 30px;
 font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.resume-item-description
+.resume-item-institute{
+color: #757575;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    background-color:#FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
 }
